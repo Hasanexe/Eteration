@@ -1,7 +1,5 @@
 import React, { useState,Component } from 'react';
 import { StyleSheet,AsyncStorage, Text,TextInput , View,Dimensions,Alert,ActivityIndicator,FlatList,Image,SafeAreaView,TouchableOpacity, ScrollView } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 const AddCharacter =({ navigation })=>{
     const [formData, setFromData] = React.useState({name:'', job:'', about:'', avatar:''});
