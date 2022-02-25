@@ -1,5 +1,5 @@
-import React, { useState,Component } from 'react';
-import { StyleSheet,AsyncStorage, Text, View,Dimensions,Alert,ActivityIndicator,FlatList,Image,SafeAreaView,TouchableOpacity } from 'react-native';
+import React, { Component } from 'react';
+import { StyleSheet,AsyncStorage, Text, View,ActivityIndicator,FlatList,Image,SafeAreaView,TouchableOpacity } from 'react-native';
 import _ from 'lodash';
 
 
@@ -130,18 +130,11 @@ render(){
 }
 }
 
-
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
     paddingHorizontal: 10,
-  },
-  item: {
-    padding: 5,
-    borderBottomWidth: 1,
-    borderBottomColor: '#eee"'
   },
   itemTitle: {
     flexDirection: 'row',
@@ -150,30 +143,10 @@ const styles = StyleSheet.create({
     fontSize: 25,
     marginTop: 5
   },
-  btnTab: {
-    width: Dimensions.get('window').width / 3.5,
-    flexDirection: 'row',
-    borderWidth: 0.5,
-    borderColor: '#EBEBEB',
-    padding: 10,
-    justifyContent: 'center'
-  },
-  textTab: {
-    fontSize: 20
-  },
-  btnTabActive: {
-    backgroundColor: '#E6838D'
-  },
-  textTabActive: {
-    color: '#fff'
-  },
   itemContainer: {
     flexDirection: 'row',
     paddingVertical: 15,
     justifyContent: 'space-between'
-  },
-  itemLogo: {
-    padding: 10
   },
   itemImage: {
     width: 50,
@@ -190,23 +163,11 @@ const styles = StyleSheet.create({
     marginBottom: 15,
     alignSelf: 'center'
   },
-  itemBody: {
-    flex: 1,
-    paddingHorizontal: 10,
-    justifyContent: 'center'
-  },
   itemName: {
     fontWeight: 'bold',
     paddingVertical: 12,
     paddingHorizontal: 10,
     fontSize: 16,
     marginRight: 'auto'
-  },
-  itemStatus: {
-    backgroundColor: 'green',
-    paddingHorizontal: 6,
-    justifyContent: 'center',
-    right: 12
   }
-
 })

@@ -1,5 +1,5 @@
-import React, { useState,Component } from 'react';
-import { StyleSheet,AsyncStorage, Text,TextInput , View,Dimensions,Alert,ActivityIndicator,FlatList,Image,SafeAreaView,TouchableOpacity, ScrollView } from 'react-native';
+import React, {} from 'react';
+import { StyleSheet,AsyncStorage, Text,TextInput ,SafeAreaView,TouchableOpacity, ScrollView } from 'react-native';
 
 const AddCharacter =({ navigation })=>{
     const [formData, setFromData] = React.useState({name:'', job:'', about:'', avatar:''});

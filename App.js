@@ -1,6 +1,4 @@
-import React, { useState,Component } from 'react';
-import { StyleSheet, Text, View,Dimensions,Alert,ActivityIndicator,FlatList,Image,SafeAreaView,TouchableOpacity } from 'react-native';
-import { render } from "react-native/Libraries/Renderer/implementations/ReactNativeRenderer-prod";
+import React, { } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 

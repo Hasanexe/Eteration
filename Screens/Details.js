@@ -1,5 +1,5 @@
-import React, { useState,Component } from 'react';
-import { StyleSheet, Text, View,Dimensions,Alert,ActivityIndicator,FlatList,Image,SafeAreaView,TouchableOpacity, ScrollView } from 'react-native';
+import React, {} from 'react';
+import { StyleSheet, Text,Image,SafeAreaView, ScrollView } from 'react-native';
 
 const Details =({route})=>{
     const { dtName , dtJob , dtAvatar, dtAbout } = route.params;//
